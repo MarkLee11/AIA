@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Job Assistant</title>
+  <meta charset="UTF-8">
+  <title>Jobkiller Assistant</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="text-align:center;">Welcome to My AI Job Assistant</h1>
 
+  <h1>Welcome to Jobkiller Assistant</h1>
+
+  <!-- Voiceflow Assistant -->
   <script type="text/javascript">
     (function(d, t) {
         var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -21,10 +39,12 @@
             }
           });
         }
-        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; 
-        v.type = "text/javascript"; 
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+        v.type = "text/javascript";
         s.parentNode.insertBefore(v, s);
     })(document, 'script');
   </script>
+
 </body>
 </html>
+
